@@ -17,6 +17,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CUSTOM_DOMAIN: api-docs.fylik.ru
-          CONFIG_FILE: folder/mkdocs.yml
+          CONFIG_FILE: mkdocs.yml
           EXTRA_PACKAGES: build-base
-          REQUIREMENTS: folder/requirements.txt
+          REQUIREMENTS: requirements.txt
